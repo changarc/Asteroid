@@ -44,8 +44,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AsteroidGenerator.js" />
      <Compile Include="Assets\Asteroidcontroller.js" />
      <Compile Include="Assets\Border_Controller.js" />
+     <Compile Include="Assets\LaserBeamController.js" />
      <Compile Include="Assets\Shipcontroller.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
